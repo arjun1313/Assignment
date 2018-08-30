@@ -1,0 +1,28 @@
+footer {
+  background-image: url(../img/wraper_background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.subscribe {
+  text-align: center;
+  width: 100%;
+}
+.subscribe h5 {
+  margin: 0px;
+  padding: 10px;
+}
+.sms {
+  text-align: center;
+}
+
+.foot {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foo {
+  text-align: center;
+  width: 25%;
+}

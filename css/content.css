@@ -1,0 +1,50 @@
+.content {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  border-left: 2px solid grey;
+  border-bottom: 4px solid grey;
+  width: 33%;
+  height:40vh;
+}
+.c1 {
+  background-image: url(../img/c1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c1 ul li {
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+}
+.c2 {
+  background-image: url(../img/c2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c2 ul li {
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+}
+.c3 {
+  background-image: url(../img/c3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c3 ul li {
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+}
+@media screen and (max-width:600px) {
+  .content {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+  }
+}
