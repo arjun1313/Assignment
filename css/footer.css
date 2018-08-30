@@ -20,9 +20,11 @@ footer {
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .foo {
   text-align: center;
-  width: 25%;
+  padding: 4vh;
+  padding-top: 0vh;
 }

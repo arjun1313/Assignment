@@ -1,8 +1,7 @@
 body{
-	font-family: sans-serif;
 	margin:0px;
 	width:100%;
-	background-color: grey;
+	background-color: white;
 }
 .header-wrap {
 	position: fixed;
@@ -11,7 +10,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	background-image: url(../img/wraper_background.jpg);
+	background-color: white;
 }
 .logo {
 	flex: 1;
@@ -20,24 +19,22 @@ body{
 	flex:4;
 }
 .logo img{
-	height :120px;
-	width :126px;
-	padding-left: 40px;
-	padding-right: 40px;
+	height :3vw;
+	width :4vw;
+	padding-top: 0.8vw;
+	padding-left: 4vw;
+	padding-right: 4vw;
 }
 nav ul {
 	list-style: none;
 	padding: 0px;
 	display: flex;
 	flex-wrap: wrap;
-	height:90px;
+	height:2vw;
 }
 nav ul li {
 	flex:1;
 	text-align: center;
-	/*border: 2px solid white;*/
-	padding-top: 30px;
-	padding-bottom: 30px;
 }
 nav ul li a{
 	text-decoration: none;
@@ -51,7 +48,7 @@ nav ul li a:hover {
 	color: white;
 }
 .hero-image {
-	margin-top:124px;
+	margin-top:50px;
 	border:0px;
 	padding:0px;
 	background-image:url(../img/hero.jpg);
@@ -68,36 +65,32 @@ nav ul li a:hover {
 }
 @media screen and (max-width:600px){
 	.header-wrap {
-		/*position: static;*/
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
 	}
 	.logo {
-		flex: 1;
+		flex: 2;
 	}
 	.navi {
 		flex:1;
 		border: 0px;
 	}
 	.logo img{
-		padding-left: 110px;
-		padding-right: 110px;
+		height: 10vw;
+		width : 10vw;
+		padding-left: 45vw;
 	}
 	nav ul {
 		margin: 0px;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
-		height: 126px;
 	}
 	nav ul li {
 		flex:1;
 		text-align: center;
-		/*border: 2px solid white;*/
-		padding-top: 3px;
-		padding-bottom: 3px;
 	}
 	nav ul li a{
 		text-decoration: none;
@@ -110,7 +103,7 @@ nav ul li a:hover {
 		color: white;
 	}
 	.hero-image {
-		margin-top:42vh;
+		margin-top:20vh;
 		height: 50vh;
 		background-repeat: no-repeat;
 		background-size:cover;
